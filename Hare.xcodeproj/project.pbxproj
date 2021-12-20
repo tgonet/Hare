@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75FA756F277078D700BFFFC8 /* HareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA756E277078D700BFFFC8 /* HareApp.swift */; };
+		75FA7571277078D700BFFFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7570277078D700BFFFC8 /* ContentView.swift */; };
+		75FA7573277078D800BFFFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7572277078D800BFFFC8 /* Assets.xcassets */; };
+		75FA7576277078D800BFFFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7575277078D800BFFFC8 /* Preview Assets.xcassets */; };
+		75FA757A277078D800BFFFC8 /* Hare WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 75FA7579277078D800BFFFC8 /* Hare WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75FA757F277078DA00BFFFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA757E277078DA00BFFFC8 /* Assets.xcassets */; };
+		75FA7585277078DA00BFFFC8 /* Hare WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75FA7584277078DA00BFFFC8 /* Hare WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75FA758A277078DA00BFFFC8 /* HareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7589277078DA00BFFFC8 /* HareApp.swift */; };
+		75FA758C277078DA00BFFFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA758B277078DA00BFFFC8 /* ContentView.swift */; };
+		75FA758E277078DA00BFFFC8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA758D277078DA00BFFFC8 /* NotificationController.swift */; };
+		75FA7590277078DA00BFFFC8 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA758F277078DA00BFFFC8 /* NotificationView.swift */; };
+		75FA7592277078DA00BFFFC8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7591277078DA00BFFFC8 /* ComplicationController.swift */; };
+		75FA7594277078DB00BFFFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7593277078DB00BFFFC8 /* Assets.xcassets */; };
+		75FA7597277078DB00BFFFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7596277078DB00BFFFC8 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75FA757B277078D800BFFFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FA7563277078D700BFFFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FA7578277078D800BFFFC8;
+			remoteInfo = "Hare WatchKit App";
+		};
+		75FA7586277078DA00BFFFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FA7563277078D700BFFFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FA7583277078DA00BFFFC8;
+			remoteInfo = "Hare WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75FA759F277078DB00BFFFC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75FA7585277078DA00BFFFC8 /* Hare WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA75A3277078DB00BFFFC8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				75FA757A277078D800BFFFC8 /* Hare WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75FA756B277078D700BFFFC8 /* Hare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FA756E277078D700BFFFC8 /* HareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HareApp.swift; sourceTree = "<group>"; };
+		75FA7570277078D700BFFFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75FA7572277078D800BFFFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75FA7575277078D800BFFFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75FA7579277078D800BFFFC8 /* Hare WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hare WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FA757E277078DA00BFFFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75FA7584277078DA00BFFFC8 /* Hare WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hare WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FA7589277078DA00BFFFC8 /* HareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HareApp.swift; sourceTree = "<group>"; };
+		75FA758B277078DA00BFFFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75FA758D277078DA00BFFFC8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		75FA758F277078DA00BFFFC8 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		75FA7591277078DA00BFFFC8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		75FA7593277078DB00BFFFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75FA7596277078DB00BFFFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75FA7598277078DB00BFFFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FA7599277078DB00BFFFC8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75FA7568277078D700BFFFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7581277078DA00BFFFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75FA7562277078D700BFFFC8 = {
+			isa = PBXGroup;
+			children = (
+				75FA756D277078D700BFFFC8 /* Hare */,
+				75FA757D277078D800BFFFC8 /* Hare WatchKit App */,
+				75FA7588277078DA00BFFFC8 /* Hare WatchKit Extension */,
+				75FA756C277078D700BFFFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FA756C277078D700BFFFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FA756B277078D700BFFFC8 /* Hare.app */,
+				75FA7579277078D800BFFFC8 /* Hare WatchKit App.app */,
+				75FA7584277078DA00BFFFC8 /* Hare WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FA756D277078D700BFFFC8 /* Hare */ = {
+			isa = PBXGroup;
+			children = (
+				75FA756E277078D700BFFFC8 /* HareApp.swift */,
+				75FA7570277078D700BFFFC8 /* ContentView.swift */,
+				75FA7572277078D800BFFFC8 /* Assets.xcassets */,
+				75FA7574277078D800BFFFC8 /* Preview Content */,
+			);
+			path = Hare;
+			sourceTree = "<group>";
+		};
+		75FA7574277078D800BFFFC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75FA7575277078D800BFFFC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75FA757D277078D800BFFFC8 /* Hare WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				75FA757E277078DA00BFFFC8 /* Assets.xcassets */,
+			);
+			path = "Hare WatchKit App";
+			sourceTree = "<group>";
+		};
+		75FA7588277078DA00BFFFC8 /* Hare WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75FA7589277078DA00BFFFC8 /* HareApp.swift */,
+				75FA758B277078DA00BFFFC8 /* ContentView.swift */,
+				75FA758D277078DA00BFFFC8 /* NotificationController.swift */,
+				75FA758F277078DA00BFFFC8 /* NotificationView.swift */,
+				75FA7591277078DA00BFFFC8 /* ComplicationController.swift */,
+				75FA7593277078DB00BFFFC8 /* Assets.xcassets */,
+				75FA7598277078DB00BFFFC8 /* Info.plist */,
+				75FA7599277078DB00BFFFC8 /* PushNotificationPayload.apns */,
+				75FA7595277078DB00BFFFC8 /* Preview Content */,
+			);
+			path = "Hare WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		75FA7595277078DB00BFFFC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75FA7596277078DB00BFFFC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75FA756A277078D700BFFFC8 /* Hare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FA75A4277078DB00BFFFC8 /* Build configuration list for PBXNativeTarget "Hare" */;
+			buildPhases = (
+				75FA7567277078D700BFFFC8 /* Sources */,
+				75FA7568277078D700BFFFC8 /* Frameworks */,
+				75FA7569277078D700BFFFC8 /* Resources */,
+				75FA75A3277078DB00BFFFC8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FA757C277078D800BFFFC8 /* PBXTargetDependency */,
+			);
+			name = Hare;
+			productName = Hare;
+			productReference = 75FA756B277078D700BFFFC8 /* Hare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75FA7578277078D800BFFFC8 /* Hare WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FA75A0277078DB00BFFFC8 /* Build configuration list for PBXNativeTarget "Hare WatchKit App" */;
+			buildPhases = (
+				75FA7577277078D800BFFFC8 /* Resources */,
+				75FA759F277078DB00BFFFC8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FA7587277078DA00BFFFC8 /* PBXTargetDependency */,
+			);
+			name = "Hare WatchKit App";
+			productName = "Hare WatchKit App";
+			productReference = 75FA7579277078D800BFFFC8 /* Hare WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		75FA7583277078DA00BFFFC8 /* Hare WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FA759C277078DB00BFFFC8 /* Build configuration list for PBXNativeTarget "Hare WatchKit Extension" */;
+			buildPhases = (
+				75FA7580277078DA00BFFFC8 /* Sources */,
+				75FA7581277078DA00BFFFC8 /* Frameworks */,
+				75FA7582277078DA00BFFFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hare WatchKit Extension";
+			productName = "Hare WatchKit Extension";
+			productReference = 75FA7584277078DA00BFFFC8 /* Hare WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75FA7563277078D700BFFFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					75FA756A277078D700BFFFC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					75FA7578277078D800BFFFC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					75FA7583277078DA00BFFFC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 75FA7566277078D700BFFFC8 /* Build configuration list for PBXProject "Hare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75FA7562277078D700BFFFC8;
+			productRefGroup = 75FA756C277078D700BFFFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FA756A277078D700BFFFC8 /* Hare */,
+				75FA7578277078D800BFFFC8 /* Hare WatchKit App */,
+				75FA7583277078DA00BFFFC8 /* Hare WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75FA7569277078D700BFFFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA7576277078D800BFFFC8 /* Preview Assets.xcassets in Resources */,
+				75FA7573277078D800BFFFC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7577277078D800BFFFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA757F277078DA00BFFFC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7582277078DA00BFFFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA7597277078DB00BFFFC8 /* Preview Assets.xcassets in Resources */,
+				75FA7594277078DB00BFFFC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FA7567277078D700BFFFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA7571277078D700BFFFC8 /* ContentView.swift in Sources */,
+				75FA756F277078D700BFFFC8 /* HareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7580277078DA00BFFFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA758E277078DA00BFFFC8 /* NotificationController.swift in Sources */,
+				75FA758C277078DA00BFFFC8 /* ContentView.swift in Sources */,
+				75FA7592277078DA00BFFFC8 /* ComplicationController.swift in Sources */,
+				75FA758A277078DA00BFFFC8 /* HareApp.swift in Sources */,
+				75FA7590277078DA00BFFFC8 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75FA757C277078D800BFFFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FA7578277078D800BFFFC8 /* Hare WatchKit App */;
+			targetProxy = 75FA757B277078D800BFFFC8 /* PBXContainerItemProxy */;
+		};
+		75FA7587277078DA00BFFFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FA7583277078DA00BFFFC8 /* Hare WatchKit Extension */;
+			targetProxy = 75FA7586277078DA00BFFFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75FA759A277078DB00BFFFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75FA759B277078DB00BFFFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75FA759D277078DB00BFFFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hare WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hare WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hare WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mz.Hare.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		75FA759E277078DB00BFFFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hare WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hare WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hare WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mz.Hare.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		75FA75A1277078DB00BFFFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Hare_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hare WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sg.mz.Hare;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mz.Hare.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		75FA75A2277078DB00BFFFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Hare_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hare WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sg.mz.Hare;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mz.Hare.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		75FA75A5277078DB00BFFFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mz.Hare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75FA75A6277078DB00BFFFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hare/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mz.Hare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FA7566277078D700BFFFC8 /* Build configuration list for PBXProject "Hare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA759A277078DB00BFFFC8 /* Debug */,
+				75FA759B277078DB00BFFFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FA759C277078DB00BFFFC8 /* Build configuration list for PBXNativeTarget "Hare WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA759D277078DB00BFFFC8 /* Debug */,
+				75FA759E277078DB00BFFFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FA75A0277078DB00BFFFC8 /* Build configuration list for PBXNativeTarget "Hare WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA75A1277078DB00BFFFC8 /* Debug */,
+				75FA75A2277078DB00BFFFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FA75A4277078DB00BFFFC8 /* Build configuration list for PBXNativeTarget "Hare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA75A5277078DB00BFFFC8 /* Debug */,
+				75FA75A6277078DB00BFFFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75FA7563277078D700BFFFC8 /* Project object */;
+}
