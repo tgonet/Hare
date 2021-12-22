@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0582E0D0C5AE12D91743D717F741D821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		19719B078B55720A1162A98241340DA6 /* Pods-Hare WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EBB6AADA0F13BA39D114936E29220D /* Pods-Hare WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DF2D137B8446D170EA1B422E6442759 /* Pods-Hare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8E6C7DD483066FEEE30541F24D3CB /* Pods-Hare-dummy.m */; };
+		748DC6711044DB4FBC86CD7176E2B2FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		8B708620DA9C9ECCD1E8C6DD4CA36A28 /* Pods-Hare WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4862EE7F6BB8EE58CBCD816054A540 /* Pods-Hare WatchKit Extension-dummy.m */; };
+		928922B6A8B5909085E5AE60DC0E2DA8 /* Pods-Hare WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6605C43437507F260C2BC31B73339A4 /* Pods-Hare WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F4DDE671C666602B2FBD27A12E792E /* Pods-Hare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B2BAC949A3668BA4B6A9E32FC86903 /* Pods-Hare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD36EB7CAC11E26AF6EE2BB3FF4CD769 /* Pods-Hare WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3652C7F19B3CCB76F09D8BFF374AF6 /* Pods-Hare WatchKit App-dummy.m */; };
+		E2485F708D647ACFEF3E00AFB978638F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047A42B456282350C52E914301642AD3 /* Pods-Hare WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hare WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		05116EF97BAD355C24673A88E4ED3CB2 /* Pods-Hare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hare.debug.xcconfig"; sourceTree = "<group>"; };
+		0E9E8076CB2B1AC77EAFCBD3C8E75DC5 /* Pods-Hare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hare.release.xcconfig"; sourceTree = "<group>"; };
+		102EB13F8727691419395760A0AB74E3 /* Pods-Hare WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hare WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		276C5946850089BDDB2FB36CF00D2514 /* Pods-Hare WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hare WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A463197643A69953753EB1DFA594374 /* Pods-Hare WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hare WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		360B965D3BF070477A0D64931917D7B5 /* Pods-Hare WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hare WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B830C908DF30CE9DA6BCB13FCEFC247 /* Pods-Hare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hare"; path = Pods_Hare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4506EE3F6F56D1ED5FB03D3DA4780397 /* Pods-Hare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hare.modulemap"; sourceTree = "<group>"; };
+		45E6C06AC0B5790732FC58D306DE4762 /* Pods-Hare WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hare WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		4BFC38F7A4FC4675713A3051A7AE034C /* Pods-Hare WatchKit Extension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hare WatchKit Extension"; path = Pods_Hare_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4862EE7F6BB8EE58CBCD816054A540 /* Pods-Hare WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hare WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62AFEC853D097C4B9107FA4D7836DE3D /* Pods-Hare WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hare WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		88C46BDB8B15904BECA6F1B809B0E4C3 /* Pods-Hare WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hare WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		8DA8E6C7DD483066FEEE30541F24D3CB /* Pods-Hare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hare-dummy.m"; sourceTree = "<group>"; };
+		91171BCAC71EF0AE183A08F8DA158E78 /* Pods-Hare WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hare WatchKit App.modulemap"; sourceTree = "<group>"; };
+		9682E71802AEC31B3DD4C2F757D031EC /* Pods-Hare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hare-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4AEBF768BA950FA3FAFE328801A7834 /* Pods-Hare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0B2BAC949A3668BA4B6A9E32FC86903 /* Pods-Hare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hare-umbrella.h"; sourceTree = "<group>"; };
+		B1455DF2A19081E4DA6C1FB58457CFFB /* Pods-Hare-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hare-Info.plist"; sourceTree = "<group>"; };
+		B4709DA2CFFD177A208A1392BC2CDB87 /* Pods-Hare WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hare WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6605C43437507F260C2BC31B73339A4 /* Pods-Hare WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hare WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		C9B42B4A260C98E1A5E5388D63847B68 /* Pods-Hare WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hare WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		CF3652C7F19B3CCB76F09D8BFF374AF6 /* Pods-Hare WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hare WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		D84302D124F3E2518C098A78AE05417C /* Pods-Hare WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hare WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		E7EBB6AADA0F13BA39D114936E29220D /* Pods-Hare WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hare WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		F5EB7ED76D7C507FC9AB5CB5E0FEF380 /* Pods-Hare WatchKit App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hare WatchKit App"; path = Pods_Hare_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242869D80281EAB558E34C4F6F4AC632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2485F708D647ACFEF3E00AFB978638F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29760D90E52225C25D077FC57A662827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748DC6711044DB4FBC86CD7176E2B2FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF72DDD249E270CB3390EDBB924E392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0582E0D0C5AE12D91743D717F741D821 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBABE5ACCBF0D21AB61D364299D310 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FBABE5ACCBF0D21AB61D364299D310 /* iOS */,
+				8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		B9AFC2681A9E87DCEB7FAAAE87E8DA59 /* Pods-Hare WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				91171BCAC71EF0AE183A08F8DA158E78 /* Pods-Hare WatchKit App.modulemap */,
+				B4709DA2CFFD177A208A1392BC2CDB87 /* Pods-Hare WatchKit App-acknowledgements.markdown */,
+				276C5946850089BDDB2FB36CF00D2514 /* Pods-Hare WatchKit App-acknowledgements.plist */,
+				CF3652C7F19B3CCB76F09D8BFF374AF6 /* Pods-Hare WatchKit App-dummy.m */,
+				88C46BDB8B15904BECA6F1B809B0E4C3 /* Pods-Hare WatchKit App-Info.plist */,
+				C6605C43437507F260C2BC31B73339A4 /* Pods-Hare WatchKit App-umbrella.h */,
+				45E6C06AC0B5790732FC58D306DE4762 /* Pods-Hare WatchKit App.debug.xcconfig */,
+				D84302D124F3E2518C098A78AE05417C /* Pods-Hare WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-Hare WatchKit App";
+			path = "Target Support Files/Pods-Hare WatchKit App";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */,
+				F7DB8BA4946D41A3BD7FE15CA3033248 /* Products */,
+				D6E0B61F68361CB1BBC64B07B0146BD6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A9A06A62B3172B4E1B082C9C347B14 /* Pods-Hare WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				047A42B456282350C52E914301642AD3 /* Pods-Hare WatchKit Extension.modulemap */,
+				360B965D3BF070477A0D64931917D7B5 /* Pods-Hare WatchKit Extension-acknowledgements.markdown */,
+				2A463197643A69953753EB1DFA594374 /* Pods-Hare WatchKit Extension-acknowledgements.plist */,
+				5A4862EE7F6BB8EE58CBCD816054A540 /* Pods-Hare WatchKit Extension-dummy.m */,
+				102EB13F8727691419395760A0AB74E3 /* Pods-Hare WatchKit Extension-Info.plist */,
+				E7EBB6AADA0F13BA39D114936E29220D /* Pods-Hare WatchKit Extension-umbrella.h */,
+				62AFEC853D097C4B9107FA4D7836DE3D /* Pods-Hare WatchKit Extension.debug.xcconfig */,
+				C9B42B4A260C98E1A5E5388D63847B68 /* Pods-Hare WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-Hare WatchKit Extension";
+			path = "Target Support Files/Pods-Hare WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D6E0B61F68361CB1BBC64B07B0146BD6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E816E00788DC40B2ACC8269080D2D0B9 /* Pods-Hare */,
+				B9AFC2681A9E87DCEB7FAAAE87E8DA59 /* Pods-Hare WatchKit App */,
+				D3A9A06A62B3172B4E1B082C9C347B14 /* Pods-Hare WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E816E00788DC40B2ACC8269080D2D0B9 /* Pods-Hare */ = {
+			isa = PBXGroup;
+			children = (
+				4506EE3F6F56D1ED5FB03D3DA4780397 /* Pods-Hare.modulemap */,
+				A4AEBF768BA950FA3FAFE328801A7834 /* Pods-Hare-acknowledgements.markdown */,
+				9682E71802AEC31B3DD4C2F757D031EC /* Pods-Hare-acknowledgements.plist */,
+				8DA8E6C7DD483066FEEE30541F24D3CB /* Pods-Hare-dummy.m */,
+				B1455DF2A19081E4DA6C1FB58457CFFB /* Pods-Hare-Info.plist */,
+				B0B2BAC949A3668BA4B6A9E32FC86903 /* Pods-Hare-umbrella.h */,
+				05116EF97BAD355C24673A88E4ED3CB2 /* Pods-Hare.debug.xcconfig */,
+				0E9E8076CB2B1AC77EAFCBD3C8E75DC5 /* Pods-Hare.release.xcconfig */,
+			);
+			name = "Pods-Hare";
+			path = "Target Support Files/Pods-Hare";
+			sourceTree = "<group>";
+		};
+		F7DB8BA4946D41A3BD7FE15CA3033248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B830C908DF30CE9DA6BCB13FCEFC247 /* Pods-Hare */,
+				F5EB7ED76D7C507FC9AB5CB5E0FEF380 /* Pods-Hare WatchKit App */,
+				4BFC38F7A4FC4675713A3051A7AE034C /* Pods-Hare WatchKit Extension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22810E60D0CE5102A92177AE78EB2A35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19719B078B55720A1162A98241340DA6 /* Pods-Hare WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA5A68450D6F7DAE02648FC8B812562 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928922B6A8B5909085E5AE60DC0E2DA8 /* Pods-Hare WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0B02BE23C586E16E16315F39B89E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F4DDE671C666602B2FBD27A12E792E /* Pods-Hare-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D42DE778E7B5DDC766A85C018FE3201 /* Pods-Hare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48254507EDC2550D005A4793B8652858 /* Build configuration list for PBXNativeTarget "Pods-Hare" */;
+			buildPhases = (
+				FEA0B02BE23C586E16E16315F39B89E9 /* Headers */,
+				DAD0BCFB751F9011B72BC5AF80BF37CC /* Sources */,
+				242869D80281EAB558E34C4F6F4AC632 /* Frameworks */,
+				E2AD9FAE37E02A5CD41F33C8B3E64D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Hare";
+			productName = Pods_Hare;
+			productReference = 3B830C908DF30CE9DA6BCB13FCEFC247 /* Pods-Hare */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F838E5CCBC77A422AA586D0A5510ABB /* Pods-Hare WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBCEF1551C4371029485C2DC431A61B /* Build configuration list for PBXNativeTarget "Pods-Hare WatchKit Extension" */;
+			buildPhases = (
+				22810E60D0CE5102A92177AE78EB2A35 /* Headers */,
+				2468A8BF72E0161CC808B74BEB608017 /* Sources */,
+				2BF72DDD249E270CB3390EDBB924E392 /* Frameworks */,
+				F09620A421062BE102BA3B1872852008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Hare WatchKit Extension";
+			productName = Pods_Hare_WatchKit_Extension;
+			productReference = 4BFC38F7A4FC4675713A3051A7AE034C /* Pods-Hare WatchKit Extension */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAEFDBF1C4648625EC2E1578D9A58F74 /* Pods-Hare WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A251F2D432C451B053C5D55DF696F1 /* Build configuration list for PBXNativeTarget "Pods-Hare WatchKit App" */;
+			buildPhases = (
+				8FA5A68450D6F7DAE02648FC8B812562 /* Headers */,
+				DB2F78D24D0EB21AD923FA0017C1B448 /* Sources */,
+				29760D90E52225C25D077FC57A662827 /* Frameworks */,
+				EEB52DBF168AD36FA9C646D375E3CEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Hare WatchKit App";
+			productName = Pods_Hare_WatchKit_App;
+			productReference = F5EB7ED76D7C507FC9AB5CB5E0FEF380 /* Pods-Hare WatchKit App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7DB8BA4946D41A3BD7FE15CA3033248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D42DE778E7B5DDC766A85C018FE3201 /* Pods-Hare */,
+				EAEFDBF1C4648625EC2E1578D9A58F74 /* Pods-Hare WatchKit App */,
+				9F838E5CCBC77A422AA586D0A5510ABB /* Pods-Hare WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AD9FAE37E02A5CD41F33C8B3E64D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB52DBF168AD36FA9C646D375E3CEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09620A421062BE102BA3B1872852008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2468A8BF72E0161CC808B74BEB608017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B708620DA9C9ECCD1E8C6DD4CA36A28 /* Pods-Hare WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD0BCFB751F9011B72BC5AF80BF37CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF2D137B8446D170EA1B422E6442759 /* Pods-Hare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2F78D24D0EB21AD923FA0017C1B448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD36EB7CAC11E26AF6EE2BB3FF4CD769 /* Pods-Hare WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BE67E8C191D1A8ECB7AF39F169642C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B42B4A260C98E1A5E5388D63847B68 /* Pods-Hare WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hare WatchKit Extension/Pods-Hare WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hare WatchKit Extension/Pods-Hare WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		491911326164B5DCF71D5EC86D65CA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05116EF97BAD355C24673A88E4ED3CB2 /* Pods-Hare.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hare/Pods-Hare-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hare/Pods-Hare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52694832847E6B4B4D54D391A8AF77FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AFEC853D097C4B9107FA4D7836DE3D /* Pods-Hare WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hare WatchKit Extension/Pods-Hare WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hare WatchKit Extension/Pods-Hare WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		57C54AEBBFF07879B370F6F8C7B1110C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		65BAB3F435DF2664EF26872F0C58F19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84302D124F3E2518C098A78AE05417C /* Pods-Hare WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hare WatchKit App/Pods-Hare WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hare WatchKit App/Pods-Hare WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A85A03127C1842D16A51F8D9ECCAC1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A8F5AE50C5C9AD3085911FA61DA0EB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9E8076CB2B1AC77EAFCBD3C8E75DC5 /* Pods-Hare.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hare/Pods-Hare-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hare/Pods-Hare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2E5CBE8571D141AF6EA2DCCF4412649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E6C06AC0B5790732FC58D306DE4762 /* Pods-Hare WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hare WatchKit App/Pods-Hare WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hare WatchKit App/Pods-Hare WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85A03127C1842D16A51F8D9ECCAC1D5 /* Debug */,
+				57C54AEBBFF07879B370F6F8C7B1110C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48254507EDC2550D005A4793B8652858 /* Build configuration list for PBXNativeTarget "Pods-Hare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491911326164B5DCF71D5EC86D65CA96 /* Debug */,
+				A8F5AE50C5C9AD3085911FA61DA0EB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFBCEF1551C4371029485C2DC431A61B /* Build configuration list for PBXNativeTarget "Pods-Hare WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52694832847E6B4B4D54D391A8AF77FE /* Debug */,
+				1BE67E8C191D1A8ECB7AF39F169642C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A251F2D432C451B053C5D55DF696F1 /* Build configuration list for PBXNativeTarget "Pods-Hare WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5CBE8571D141AF6EA2DCCF4412649 /* Debug */,
+				65BAB3F435DF2664EF26872F0C58F19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
