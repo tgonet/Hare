@@ -66,7 +66,7 @@ struct JoeyContentView:View {
     }
 }
 
-struct ContentView_Previews:
+struct JoeyContentView_Previews:
     PreviewProvider {
         static var previews: some View {
             JoeyContentView()

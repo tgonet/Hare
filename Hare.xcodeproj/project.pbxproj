@@ -247,8 +247,8 @@
 		912371AF2773545400B4F85B /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				912371B0277354FD00B4F85B /* Rubik-Regular.ttf */,
 				912371DA2773568E00B4F85B /* Sansita-BoldItalic.ttf */,
+				912371B0277354FD00B4F85B /* Rubik-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
