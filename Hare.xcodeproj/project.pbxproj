@@ -24,6 +24,11 @@
 		75FA7594277078DB00BFFFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7593277078DB00BFFFC8 /* Assets.xcassets */; };
 		75FA7597277078DB00BFFFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7596277078DB00BFFFC8 /* Preview Assets.xcassets */; };
 		75FA75AA2773123500BFFFC8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA75A92773123500BFFFC8 /* MapView.swift */; };
+		912371AD27734BFA00B4F85B /* JoeyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912371AC27734BFA00B4F85B /* JoeyContentView.swift */; };
+		912371BE277354FD00B4F85B /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 912371B0277354FD00B4F85B /* Rubik-Regular.ttf */; };
+		912371BF277354FE00B4F85B /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 912371B0277354FD00B4F85B /* Rubik-Regular.ttf */; };
+		912371DB2773568E00B4F85B /* Sansita-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 912371DA2773568E00B4F85B /* Sansita-BoldItalic.ttf */; };
+		912371DC2773568E00B4F85B /* Sansita-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 912371DA2773568E00B4F85B /* Sansita-BoldItalic.ttf */; };
 		B221851E9C6FA467FE06EB9B /* Pods_Hare_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2A850F67D15E9269F05BE6 /* Pods_Hare_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +101,10 @@
 		75FA7598277078DB00BFFFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75FA7599277078DB00BFFFC8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		75FA75A92773123500BFFFC8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		912371AC27734BFA00B4F85B /* JoeyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoeyContentView.swift; sourceTree = "<group>"; };
+		912371B0277354FD00B4F85B /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rubik-Regular.ttf"; path = "../../../../Downloads/Rubik/static/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		912371DA2773568E00B4F85B /* Sansita-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sansita-BoldItalic.ttf"; path = "../../../../Downloads/Sansita/Sansita-BoldItalic.ttf"; sourceTree = "<group>"; };
+		912371DD2773688C00B4F85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A077D9A18110DBFEA3BBEE00 /* Pods-Hare WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hare WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Hare WatchKit Extension/Pods-Hare WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +162,7 @@
 		75FA7562277078D700BFFFC8 = {
 			isa = PBXGroup;
 			children = (
+				912371AE2773543900B4F85B /* Shared */,
 				75FA756D277078D700BFFFC8 /* Hare */,
 				75FA757D277078D800BFFFC8 /* Hare WatchKit App */,
 				75FA7588277078DA00BFFFC8 /* Hare WatchKit Extension */,
@@ -175,8 +185,10 @@
 		75FA756D277078D700BFFFC8 /* Hare */ = {
 			isa = PBXGroup;
 			children = (
+				912371DD2773688C00B4F85B /* Info.plist */,
 				75FA756E277078D700BFFFC8 /* HareApp.swift */,
 				75FA7570277078D700BFFFC8 /* ContentView.swift */,
+				912371AC27734BFA00B4F85B /* JoeyContentView.swift */,
 				75FA75A92773123500BFFFC8 /* MapView.swift */,
 				75FA7572277078D800BFFFC8 /* Assets.xcassets */,
 				75FA7574277078D800BFFFC8 /* Preview Content */,
@@ -222,6 +234,23 @@
 				75FA7596277078DB00BFFFC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		912371AE2773543900B4F85B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				912371AF2773545400B4F85B /* fonts */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		912371AF2773545400B4F85B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				912371B0277354FD00B4F85B /* Rubik-Regular.ttf */,
+				912371DA2773568E00B4F85B /* Sansita-BoldItalic.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FA7576277078D800BFFFC8 /* Preview Assets.xcassets in Resources */,
+				912371DB2773568E00B4F85B /* Sansita-BoldItalic.ttf in Resources */,
+				912371BE277354FD00B4F85B /* Rubik-Regular.ttf in Resources */,
 				75FA7573277078D800BFFFC8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +371,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FA757F277078DA00BFFFC8 /* Assets.xcassets in Resources */,
+				912371BF277354FE00B4F85B /* Rubik-Regular.ttf in Resources */,
+				912371DC2773568E00B4F85B /* Sansita-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FA7571277078D700BFFFC8 /* ContentView.swift in Sources */,
+				912371AD27734BFA00B4F85B /* JoeyContentView.swift in Sources */,
 				75FA75AA2773123500BFFFC8 /* MapView.swift in Sources */,
 				75FA756F277078D700BFFFC8 /* HareApp.swift in Sources */,
 			);
@@ -702,6 +736,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Hare/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -733,6 +768,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Hare/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
