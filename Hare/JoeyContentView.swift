@@ -58,6 +58,7 @@ struct JoeyContentView:View {
                         .frame(width: 80, height: 80)
                         .background(Color("AccentColor2"))
                         .clipShape(Circle())
+     
                     
                 }.padding(25)
             }
