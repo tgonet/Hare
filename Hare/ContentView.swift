@@ -21,24 +21,16 @@ struct ContentView: View {
     span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     )
 
-    @State var lineCoordinates = [
 
-    // Steve Jobs theatre
-        CLLocationCoordinate2D(latitude: latitude, longitude: longtitude),
-        // Caffè Macs
-        CLLocationCoordinate2D(latitude: latitude+0.000002, longitude: longtitude-0.006),
-        // Apple wellness center
-        CLLocationCoordinate2D(latitude: 37.336901, longitude:  -122.012345)
-    ]
 
     var body: some View {
         ZStack{
             VStack{
-                MapView(region: region,lineCoordinates: lineCoordinates)
+                MapView(region: region,lineCoordinates: stopwatchManager.lineCoordinates)
                 VStack{
                     Text("Duration")
                         .font(Font.custom("Rubik-Regular", size:12))
-                    Text(String(format: "%.1f", stopwatchManager.secondsElapsed))
+                    Text(stopwatchManager.timeStr)
                         .font(Font.custom("Sansita-BoldItalic", size:60))
                 }
                 HStack(spacing:50){
@@ -68,7 +60,7 @@ struct ContentView: View {
                         .background(Color("AccentColor"))
                         .clipShape(Circle())
                     
-                    Button(action:{self .stopwatchManager.pause()}, label: {
+                    Button(action:{self.stopwatchManager.pause()}, label: {
                         Image(systemName: "pause.fill")
                             .resizable()
                             .frame(width: 30, height: 30)
