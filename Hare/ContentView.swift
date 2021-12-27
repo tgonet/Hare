@@ -13,16 +13,13 @@ var longtitude = -122.007495
 
 struct ContentView: View {
     
+    @ObservedObject var stopwatchManager = StopwatchManager()
    
     @State private var region = MKCoordinateRegion(
     // Apple Park
     center: CLLocationCoordinate2D(latitude: 37.334803, longitude: -122.008965),
     span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     )
-    
-    let timer = Timer.publish(every: 5, on: .main, in: .common).autoconnect()
-    
-    
 
     @State var lineCoordinates = [
 
@@ -34,21 +31,77 @@ struct ContentView: View {
         CLLocationCoordinate2D(latitude: 37.336901, longitude:  -122.012345)
     ]
 
-  var body: some View {
-      HStack {
-          MapView(
-          region: region,
-          lineCoordinates: lineCoordinates
-        ).edgesIgnoringSafeArea(.all).onReceive(timer) { time in
-            print(latitude)
-            latitude += 0.001
-            longtitude -= 0.001
-            lineCoordinates.append(CLLocationCoordinate2D(latitude: latitude, longitude: longtitude))
-            print("test")
-          }
-      }
-  }
+    var body: some View {
+        ZStack{
+            VStack{
+                MapView(region: region,lineCoordinates: lineCoordinates)
+                VStack{
+                    Text("Duration")
+                        .font(Font.custom("Rubik-Regular", size:12))
+                    Text(String(format: "%.1f", stopwatchManager.secondsElapsed))
+                        .font(Font.custom("Sansita-BoldItalic", size:60))
+                }
+                HStack(spacing:50){
+                    VStack{
+                        Text("Distance")
+                            .font(Font.custom("Rubik-Regular", size:12))
+                        Text("2.55km")
+                            .font(Font.custom("Sansita-BoldItalic", size:32))
+                    }
+                    VStack{
+                        Text("Avg Pace")
+                            .font(Font.custom("Rubik-Regular", size:12))
+                        Text("6'55")
+                            .font(Font.custom("Sansita-BoldItalic", size:32))
+                    }
+                }.padding(10)
+                HStack(spacing: 55){
+                    Button(action:{self.stopwatchManager.start()}, label: {
+                        Image(systemName: "play.fill")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(Color("AccentColor2"))
+                            .padding(8)
+                    })
+                        .frame(width: 80, height: 80)
+                        .background(Color("AccentColor"))
+                        .clipShape(Circle())
+                    
+                    Button(action:{self .stopwatchManager.pause()}, label: {
+                        Image(systemName: "pause.fill")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(Color("AccentColor"))
+                            .padding(8)
+                    })
+                        .frame(width: 80, height: 80)
+                        .background(Color("AccentColor2"))
+                        .clipShape(Circle())
+     
+                    
+                }.padding(25)
+            }
+            .background(Color("BackgroundColor"))
+        }
+    }
 }
+//  var body: some View {
+//      HStack {
+//          MapView(
+//          region: region,
+//          lineCoordinates: lineCoordinates)
+//        ).edgesIgnoringSafeArea(.all).onReceive(timer) { time in
+//            print(latitude)
+//            latitude += 0.001
+//            longtitude -= 0.001
+//            lineCoordinates.append(CLLocationCoordinate2D(latitude: latitude, longitude: longtitude))
+//
+//          }
+//      }
+//  }
+//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

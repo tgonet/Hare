@@ -11,8 +11,7 @@ import SwiftUI
 struct HareApp: App {
     var body: some Scene {
         WindowGroup {
-            JoeyContentView()
-            
+            ContentView()
         }
     }
 }
