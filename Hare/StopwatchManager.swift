@@ -14,6 +14,9 @@ class StopwatchManager : ObservableObject{
     var sec = "0"
     var min = "0"
     var hr = "0"
+    var calSec:Int?
+    var calMin:Int?
+    var calHr:Int?
     @Published var timeStr = "00:00:00"
     @Published var mode: stopWatchMode = .stopped
     var timer = Timer()
@@ -34,9 +37,16 @@ class StopwatchManager : ObservableObject{
         mode = .running
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
             self.secondsElapsed += 1
-            self.sec = self.secondsElapsed % 60 > 0 ? String(format: "%02d", self.secondsElapsed % 60) : "00"
-            self.min = ((self.secondsElapsed % 3600) / 60) > 0 ? String(format: "%02d", (self.secondsElapsed % 3600) / 60) : "00"
-            self.hr = (self.secondsElapsed / 3600) > 0 ? String(format: "%02d", self.secondsElapsed / 3600) : "00"
+            
+            self.calSec = self.secondsElapsed % 60
+            self.sec = self.calSec! > 0 ? String(format: "%02d", self.calSec!) : "00"
+            
+            self.calMin = (self.secondsElapsed % 3600) / 60
+            self.min = self.calMin! > 0 ? String(format: "%02d", self.calMin!) : "00"
+            
+            self.calHr = self.secondsElapsed / 3600
+            self.hr = self.calHr! > 0 ? String(format: "%02d", self.calHr!) : "00"
+            
             self.timeStr = "\(self.hr):\(self.min):\(self.sec)"
             self.latitude += 0.001
             self.longtitude -= 0.001

@@ -21,8 +21,6 @@ struct ContentView: View {
     span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
     )
 
-
-
     var body: some View {
         ZStack{
             VStack{
@@ -60,7 +58,9 @@ struct ContentView: View {
                         .background(Color("AccentColor"))
                         .clipShape(Circle())
                     
-                    Button(action:{self.stopwatchManager.pause()}, label: {
+                    Button(action:{self.stopwatchManager.pause()
+                        print("HI")
+                    }, label: {
                         Image(systemName: "pause.fill")
                             .resizable()
                             .frame(width: 30, height: 30)
