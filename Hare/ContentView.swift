@@ -46,33 +46,52 @@ struct ContentView: View {
                     }
                 }.padding(10)
                 HStack(spacing: 55){
-                    Button(action:{self.stopwatchManager.start()}, label: {
-                        Image(systemName: "play.fill")
-                            .resizable()
-                            .frame(width: 30, height: 30)
-                            .aspectRatio(contentMode: .fit)
-                            .foregroundColor(Color("AccentColor2"))
-                            .padding(8)
-                    })
-                        .frame(width: 80, height: 80)
-                        .background(Color("AccentColor"))
-                        .clipShape(Circle())
-                    
-                    Button(action:{self.stopwatchManager.pause()
-                        print("HI")
-                    }, label: {
-                        Image(systemName: "pause.fill")
-                            .resizable()
-                            .frame(width: 30, height: 30)
-                            .aspectRatio(contentMode: .fit)
-                            .foregroundColor(Color("AccentColor"))
-                            .padding(8)
-                    })
-                        .frame(width: 80, height: 80)
-                        .background(Color("AccentColor2"))
-                        .clipShape(Circle())
-     
-                    
+                    if stopwatchManager.mode == .stopped
+                    {
+                        Button(action:{self.stopwatchManager.start()}, label: {
+                            Image("Logo")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width:70)
+                                .padding(.trailing, 8)
+                            Text("Lepus On")
+                                .font(Font.custom("Sansita-BoldItalic", size:32))
+                                .foregroundColor(Color.black)
+                        })
+                            .padding(20)
+                            .frame(width: 350, height: 80)
+                            .background(Color("AccentColor3"))
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                            .shadow(color: .gray, radius: 4, x: 5, y: 5)
+                    }
+                    else if stopwatchManager.mode == .running
+                    {
+                        Button(action:{self.stopwatchManager.start()}, label: {
+                            Image(systemName: "play.fill")
+                                .resizable()
+                                .frame(width: 30, height: 30)
+                                .aspectRatio(contentMode: .fit)
+                                .foregroundColor(Color("AccentColor2"))
+                                .padding(8)
+                        })
+                            .frame(width: 80, height: 80)
+                            .background(Color("AccentColor"))
+                            .clipShape(Circle())
+                        
+                        Button(action:{self.stopwatchManager.pause()
+                            print("HI")
+                        }, label: {
+                            Image(systemName: "pause.fill")
+                                .resizable()
+                                .frame(width: 30, height: 30)
+                                .aspectRatio(contentMode: .fit)
+                                .foregroundColor(Color("AccentColor"))
+                                .padding(8)
+                        })
+                            .frame(width: 80, height: 80)
+                            .background(Color("AccentColor2"))
+                            .clipShape(Circle())
+                    }
                 }.padding(25)
             }
             .background(Color("BackgroundColor"))
